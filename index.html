@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+
+<title>Quiz Questions And Answers</title>
+<link rel = "stylesheet" href="D:\My Documents\grade9_chap2\style.css">
+
+</head>
+
+<body>
+
+<center><h1>Quiz - Is matter around us Pure?</h1></center>
+
+<p>
+
+<form name="quiz">
+
+<p>
+
+<b>
+    <h2> Question 1. </h2>
+
+<br> <p class = "questions"> A homogenous mixture of two or more substances is called a  <br></b></p>
+
+<blockquote>
+
+<input type="radio" name="q1" value="Solution">Solution<br>
+
+<input type="radio" name="q1" value="Alloy">Alloy<br>
+<input type="radio" name="q1" value="Suspension">Suspension <br>
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<h2> Question 2. </h2>
+
+<br> <p class = "questions"> A mixture of two or metals or a metal and non metal is called an<br></b></p>
+
+<blockquote>
+
+<input type="radio" name="q2" value="Colloidal solution">Colloidal Solution<br>
+
+<input type="radio" name="q2" value="Alloy">Alloy<br>
+
+<input type="radio" name="q2" value="Suspension">Suspension<br>
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<h2> Question 3. </h2>
+
+<br><p class = "questions"> Brass is a mixture of<br></b></p>
+
+<blockquote>
+
+<input type="radio" name="q3" value="30% zinc and 80% copper">30% zinc and 80% copper<br>
+
+<input type="radio" name="q3" value="30% zinc and 70% copper">30% zinc and 70% copper<br>
+
+<input type="radio" name="q3" value="25% copper and 70% zinc">25% copper and 70% zinc<br>
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<h2> Question 4. </h2>
+
+<br> <p class = "questions"> The particles of a solution are large enough to scatter a beam of light passing through it<br></b></p>
+
+<blockquote>
+
+<input type="radio" name="q4" value="True">True<br>
+
+<input type="radio" name="q4" value="False">False<br>
+
+<input type="radio" name="q4" value=" "> <br>
+
+
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<h2> Question 5. </h2>
+
+<br> <p class = "questions">When no more solute can be dissolved in a solvent, the solution is said to be ___________<br></b> </p>
+
+<blockquote>
+
+<input type="radio" name="q5" value="Saturated">Saturated<br>
+
+<input type="radio" name="q5" value="Mixed">Mixed<br>
+
+<input type="radio" name="q5" value="Soaked">Soaked <br>
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<h2>Question 6.</h2>
+
+<br><p class = "questions"> Particles of a suspension are large enough to be seen by the naked eye<br></b>  </p>
+
+<blockquote>
+
+<input type="radio" name="q6" value="False">False<br>
+
+<input type="radio" name="q6" value="True">True<br>
+
+<input type="radio" name="q6" value=""><br>
+
+</blockquote>
+<hr>
+
+<p><b>
+
+<h2> Question 7.</h2>
+
+<br> <p class = "questions"> Centrifugation can be used to seperate what kind of mixture?<br></b> </p>
+
+<blockquote>
+
+<input type="radio" name="q7" value="Suspension">Suspension<br>
+
+<input type="radio" name="q7" value="Colloidal">Colloidal<br>
+
+<input type="radio" name="q7" value="Solution">Solution<br>
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<h2>Question 8.</h2>
+
+<br> <p class = "questions"> The process of seperating a mixture of miscible liquids with sufficiently different boiling points is called _______<br></b> </p>
+
+<blockquote>
+
+<input type="radio" name="q8" value="Distillation">Distillation<br>
+
+<input type="radio" name="q8" value="Chromatography">Chromatography<br>
+
+<input type="radio" name="q8" value="Filtration">Filtration<br>
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<h2> Question 9.</h2>
+
+<br> <p class = "questions">  The boiling point of oxygen is (in celsius)<br></b></p>
+
+<blockquote>
+
+<input type="radio" name="q9" value="0">0<br>
+
+<input type="radio" name="q9" value="-150">-150<br>
+
+<input type="radio" name="q9" value="-183">-183<br>
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<h2>Question 10.</h2>
+
+<br> <p class = "questions"> A ________ is composed of two or more elements, chemcially combined to one another in a fixed proportion<br></b> </p>
+
+<blockquote>
+
+<input type="radio" name="q10" value="Atom">Atoms<br>
+
+<input type="radio" name="q10" value="Compound">Compound<br>
+
+<input type="radio" name="q10" value="Metal">Metal<br>
+
+</blockquote>
+
+<p><b>
+
+<hr>
+
+<p><b></b>
+
+<input type="button"value="Grade Me"onClick="getScore(this.form);">
+
+<input type="reset" value="Clear"><p>
+
+Number of score out of 10 = <input type= text size 15 name= "mark">
+
+Score in percentage = <input type=text size=15 name="percentage"><br>
+
+</form>
+
+<p>
+
+<form method="post" name="Form" onsubmit="" action="">
+
+</form>
+
+</body>
+
+<script>
+
+var numQues = 10;
+
+var numChoi = 3 ;
+
+var answers = new Array(10);
+
+answers[0] = "Solution";
+
+answers[1] = "Alloy";
+
+answers[2] = "30% zinc and 70% copper";
+
+answers[3] = "False";
+
+answers[4] = "Saturated";
+
+answers[5] = "True";
+
+answers[6] = "Colloidal";
+
+answers[7] = "Distillation";
+
+answers[8] = "-183";
+
+answers[9] = "Compound";
+
+
+
+function getScore(form) {
+
+var score = 0;
+
+var currElt;
+
+var currSelection;
+
+for (i=0; i<numQues; i++) {
+
+currElt = i*numChoi;
+
+answered=false;
+
+for (j=0; j<numChoi; j++) {
+
+currSelection = form.elements[currElt + j];
+
+if (currSelection.checked) {
+
+answered=true;
+
+if (currSelection.value == answers[i]) {
+
+score++;
+
+break;
+
+}
+
+}
+
+}
+
+if (answered ===false){alert("Do answer all the questions, Please") ;return false;}
+
+}
+
+var scoreper = Math.round(score/numQues*100);
+
+form.percentage.value = scoreper + "%";
+
+form.mark.value=score;
+
+}
+
+</script>
+
+</html>
